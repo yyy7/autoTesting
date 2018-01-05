@@ -1,0 +1,172 @@
+.right
+{
+    position:absolute;
+    right:0px;
+    width:425px;
+    background-color:#b0e0e6;
+}
+
+.margin-right
+{
+   margin-right: 30px;
+}
+
+.margin-left24{
+    margin-left: 24px;
+}
+
+.container-height{
+    height: 100%;
+}
+
+.text-size{
+    font-size: 6px;
+}
+
+
+
+.text-logo{
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+.table-align-center{
+    display: table;
+    width:80%;
+    margin: 0px auto;
+    align-content: center;
+}
+
+.align-center{
+    margin-left: 50%;
+    margin-right:50%;
+}
+
+
+.margin-right-half{
+    margin-left: 50%;
+    margin-left: -50px;
+}
+
+.padding30{
+    padding: 30px;
+}
+.padding10{
+    padding: 10px;;
+}
+
+.text-logined{
+    color:#FFFFFF;
+    font-size: 14px;
+}
+.bg-gray{
+    background-color: #adadad;
+}
+.margin10{
+    margin:10px;
+}
+.card-me{
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 5px;
+    margin-bottom: .5rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-block-me{
+    padding: 1.05rem;
+}
+
+.right-exit{
+    position: absolute;
+    right: 50px;
+    width: 50px;
+    font-size: medium;
+}
+
+.div-center{
+    width: 90%;
+    margin: 0px auto;
+    align-content: center;
+}
+
+.all{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 0 auto;
+}
+
+
+/*注册界面新增样式 */
+.reall{
+    margin-top:6%;
+    margin-left:45%;
+}
+
+.retitle {
+    font-size: 30px;
+    font-weight: 700;
+    color:#fff;
+    text-shadow: 0 1px 4px rgba(0,0,0,.2);
+    /*  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.tecno{
+    margin-left:-100px;
+    padding-top: 20px;
+}
+
+.form-control1 {
+    display: block;
+    /*  width: 100%; */
+    padding: 5px 30px 5px 5px;
+    font-size: 1rem;
+    /* line-height: 1.25; */
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    margin-left: -50px;
+    margin-top: 10px;
+    font-family: Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+    text-decoration: none;
+    -webkit-box-shadow: inset 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group1{
+    margin-bottom: 0rem;
+}
+
+.age{
+    margin-left:75px;
+}
+
+.rebtn{
+    width: 40%;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    margin-left: -100px;
+    height: 42px;
+    margin-top: 25px;
+    /* padding: 0.75rem 1.5rem; */
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+.bg{
+    background: #f8f8f8;
+}
+
+.btn-link1{
+    margin-left:-15px;
+}
+
+
+

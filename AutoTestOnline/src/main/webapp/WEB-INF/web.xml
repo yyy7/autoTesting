@@ -1,0 +1,126 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+    <filter-name>characterEncoding</filter-name>
+    <filter-class>com.katey2658.web.controller.CharacterEncoding</filter-class>
+  </filter>
+  <filter>
+    <filter-name>doLoginCheck</filter-name>
+    <filter-class>com.katey2658.web.controller.AutoLoginFilter</filter-class>
+    <init-param>
+      <param-name>excludePage1</param-name>
+      <param-value>login.jsp</param-value>
+    </init-param>
+    <init-param>
+      <param-name>excludePage3</param-name>
+      <param-value>home.jsp</param-value>
+    </init-param>
+    <init-param>
+      <param-name>excludePage4</param-name>
+      <param-value>index.jsp</param-value>
+    </init-param>
+    <init-param>
+      <param-name>excludePage5</param-name>
+      <param-value>login</param-value>
+    </init-param>
+    <init-param>
+      <param-name>excludePage7</param-name>
+      <param-value>register</param-value>
+    </init-param>
+    <init-param>
+      <param-name>excludePage6</param-name>
+      <param-value>register.jsp</param-value>
+    </init-param>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>characterEncoding</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>doLoginCheck</filter-name>
+    <url-pattern>/views/*</url-pattern>
+  </filter-mapping>
+
+
+
+  <servlet>
+    <servlet-name>DoLogin</servlet-name>
+    <servlet-class>com.katey2658.web.controller.LoginIdentifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>com.katey2658.web.controller.UserRegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>stuMe</servlet-name>
+    <servlet-class>com.katey2658.web.controller.StuMeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>tecMe</servlet-name>
+    <servlet-class>com.katey2658.web.controller.TecMeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>testJoin</servlet-name>
+    <servlet-class>com.katey2658.web.controller.TestJoinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>testSubmit</servlet-name>
+    <servlet-class>com.katey2658.web.controller.TestPaperSubmitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>testPublish</servlet-name>
+    <servlet-class>com.katey2658.web.controller.TestPublishServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userExit</servlet-name>
+    <servlet-class>com.katey2658.web.controller.UserExitServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <servlet-name>test</servlet-name>
+    <servlet-class>com.katey2658.web.controller.TestServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoLogin</servlet-name>
+    <url-pattern>/views/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/views/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stuMe</servlet-name>
+    <url-pattern>/views/stuMe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tecMe</servlet-name>
+    <url-pattern>/views/tecMe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>testJoin</servlet-name>
+    <url-pattern>/views/testJoin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>testSubmit</servlet-name>
+    <url-pattern>/views/testSubmit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>testPublish</servlet-name>
+    <url-pattern>/views/testPublish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userExit</servlet-name>
+    <url-pattern>/views/userExit</url-pattern>
+  </servlet-mapping>
+</web-app>

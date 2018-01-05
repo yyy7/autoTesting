@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Microsoft Yahei';
+    font-size: 16px;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: #003D79;
+    position: relative;
+    box-shadow: 100px 200px 1200px #003D79;
+}
+
+.enter {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.exit {
+    position: absolute;
+    top: 45%;
+    left: 95%;
+    border: none;
+    background-color: #003D79;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.article {}
+
+.aheader {
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.htest {
+    position: absolute;
+    left: 22%;
+    bottom: 0px;
+    background-color: #003D79;
+    color: #cccccc;
+}
+
+.hsearch {
+    position: absolute;
+    left: 92%;
+    bottom: 0px;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.line {
+    width: 65%;
+    height: 1px;
+    margin: 0px auto;
+    /*padding: 0px;*/
+    background-color: #D5D5D5;
+    overflow: hidden;
+}
+
+.amiddle {
+    width: 300px;
+    height: 250px;
+    border: 2px dashed #D5D5D5;
+    margin-left: 40%;
+    margin-top: 60px;
+}
+
+.micon {
+    background: url(../images/icon1.png) center center no-repeat;
+    height: 100px;
+    padding-top: 50%;
+}
+
+.mset {
+    background: url(../images/icon2.png) center center no-repeat;
+    height: 100px;
+    padding-top: 50%;
+}
+
+.mtest {
+    margin-top: -60px;
+    margin-left: 110px;
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.footer {
+    margin-left: 20%;
+    margin-top: 70px;
+    color: #003D79;
+}
+
+.records {
+    margin-left: 12%;
+    color: #cccccc;
+}

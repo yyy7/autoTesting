@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    font-family: Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+}
+
+.bg {
+	background: #f8f8f8; 
+	/* filter: alpha(opacity=40);  
+	background-color: rgba(0, 0, 0, 0.4);   */
+    
+    -moz-background-size: 100% 100%; /*  Firefox 3.6 */
+    -o-background-size: 100% 100%;/* Opera 9.5 */
+    -webkit-background-size: 100% 100%;/* Safari 3.0 */
+    background-size: 100% 100%;/*  Firefox 4.0 and other CSS3-compliant browsers */
+    -moz-border-image: url(scale.jpg) 0; /* Firefox 3.5 */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='scale.jpg', sizingMethod='scale');/* for < ie9 */
+
+}
+
+.art {
+	position: relative;
+}
+
+.abouttitle { /* color:#fff; */
+	position: absolute;
+	left: 34%;
+	top: 150px;
+	font-family: ;
+	font-size: 45px;
+	color:#fff;
+	
+	-webkit-text-stroke: 1px #d7d7d7;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	background-color: black;
+	position: absolute;
+	top: 220px;
+	overflow: hidden;
+}
+
+.shortline {
+	width: 20%;
+	height: 5px;
+	/* background-color:#025aa5; */
+	background-color:#f0ad4e;
+	position: absolute;
+	top: 218px;
+	left: 41%;
+	overflow: hidden;
+}
+
+.profile {
+	position: absolute;
+	left: -15%;
+	top: 260px;
+	font-family: ;
+	font-size: 25px;
+	margin-right: 5%;
+	color:#373a3c;
+}
+
+.images { /* position: absolute;
+	left: 10%;
+	top: 260px; */
+	
+}
+
+.circle1{
+	background: url("../image/circle.png") left center no-repeat;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 170px;
+	top: 400px;
+}
+
+.tec {
+	background: url("../image/tec.png") left center no-repeat;
+	/*  background-size: 200px 200px; */
+	width: 60px;
+	height:60px;
+	position: absolute;
+	left: 210px;
+	top: 480px;
+}
+.circle2{
+	background: url("../image/circle.png") left center no-repeat;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left:600px;
+	top: 400px;
+}
+.test {
+	background: url("../image/test.png") left center no-repeat;
+	/*  background-size: 200px 200px; */
+	width: 60px;
+	height:60px;
+	position: absolute;
+	left: 640px;
+	top: 480px;
+}
+.circle3{
+	background: url("../image/circle.png") left center no-repeat;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 1030px;
+	top: 400px;
+}
+.stu {
+	background: url("../image/stu.png") left center no-repeat;
+	/*  background-size: 200px 200px; */
+	width: 60px;
+	height:60px;
+	position: absolute;
+	left: 1070px;
+	top: 480px;
+}
